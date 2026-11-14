@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#05050c">
+  <meta name="description" content="一份專屬於你的 17 歲生日驚喜。">
+  <title>給你｜17 歲生日驚喜</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="experience" id="experience" data-scene="1">
+    <canvas id="canvas" aria-hidden="true"></canvas>
+    <div class="scanlines" aria-hidden="true"></div>
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="生日驚喜首頁"><span class="brand-mark">♥</span> A LITTLE MAGIC FOR YOU</a>
+      <div class="scene-count" aria-live="polite"><span id="sceneNumber">01</span><span class="count-divider">/</span>04</div>
+    </header>
+
+    <section class="message-area" aria-live="polite">
+      <p class="eyebrow" id="eyebrow">A SECRET IS UNFOLDING</p>
+      <h1 id="title">正在解碼專屬於你的 <span class="accent">17 歲</span>驚喜<span class="cursor">_</span></h1>
+      <p class="subtitle" id="subtitle">點擊螢幕，讓魔法開始</p>
+      <div class="message-rule" aria-hidden="true"><span></span></div>
+    </section>
+
+    <div class="hint" id="hint"><span class="hint-dot"></span><span>點擊任意處，推進下一幕</span></div>
+    <button class="next-button" id="nextButton" type="button">
+      <span id="buttonLabel">開始解碼</span><span class="button-arrow" aria-hidden="true">↗</span>
+    </button>
+    <div class="corner-note" aria-hidden="true">MADE WITH <span>♥</span> JUST FOR YOU</div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
